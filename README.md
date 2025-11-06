@@ -5,8 +5,10 @@ More information can be found [here](https://github.com/foostan/crkbd/tree/v3-fi
 
 ## Configuration Process
 - Push new changes to GitHub
-- Go to Actions and download new firmware
+- Go to Actions and click and download "firmware" (must be logged in)
+- Unzip firmware -> left.uf2 and right.uf2
 - Flash new firmware to each Nice!Nano
+  - plugin and reset left side and drag and drop into it, repeat with right
 - Test if every switch works [here](https://config.qmk.fm/#/test).
 
 
